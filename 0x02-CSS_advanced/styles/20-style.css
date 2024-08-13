@@ -1,0 +1,7 @@
+/* Add a new row after each .row element */
+.row::after {
+  content: ""; /* No content */
+  display: table; /* Display as a table */
+  clear: both; /* Prevent floating elements on either side */
+}
+

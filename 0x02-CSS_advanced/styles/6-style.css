@@ -1,0 +1,16 @@
+/* Define custom font-weight properties for the root element */
+:root {
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/* Set font weight for body text to font-weight-regular */
+body {
+  font-weight: var(--font-weight-regular);
+}
+
+/* Set font weight for all heading elements (h1, h2, h3, h4, h5, h6) to font-weight-bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+}
+

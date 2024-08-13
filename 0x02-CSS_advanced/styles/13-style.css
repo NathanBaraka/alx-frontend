@@ -1,0 +1,20 @@
+/* Ensure the anchor elements containing hyperlinks have no text decoration */
+a[href] {
+  text-decoration: none;
+}
+
+/* Style the visited state of the links */
+a[href]:visited {
+  font-style: italic;
+}
+
+/* Style the hover state of the links */
+a[href]:hover {
+  text-decoration: underline;
+}
+
+/* Style the active state of the links */
+a[href]:active {
+  background-color: var(--color-light-grey);
+}
+

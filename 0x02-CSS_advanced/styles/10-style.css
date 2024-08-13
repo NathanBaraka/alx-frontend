@@ -1,0 +1,20 @@
+/* Define custom properties */
+:root {
+  --section-header-align: center;
+}
+
+/* Apply alignment to section-header */
+.section-header {
+  text-align: var(--section-header-align);
+}
+
+/* Other existing styles */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Ensure the anchor elements have no text decoration */
+a {
+  text-decoration: none;
+}
+

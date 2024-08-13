@@ -1,0 +1,36 @@
+/* Define custom font-family properties for the root element */
+:root {
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Apply font-family to the body element */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Apply font-family to all levels of section headings (h1 to h6) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
+
+/* Reset color for elements with class section-tagline */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Reset color for elements with class card-category */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Reset color for the body element */
+body {
+  color: var(--text-color);
+}
+
+/* Reset color for anchor elements */
+a {
+  color: var(--text-color);
+}
+

@@ -1,0 +1,15 @@
+/* Target all classes starting with 'col-' */
+[class^="col-"] {
+  float: left;
+  padding: calc(0.5 * 1rem); /* Assuming 1rem is the root element size */
+}
+
+/* Specific styles for col-1-3 and col-1-2 */
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
