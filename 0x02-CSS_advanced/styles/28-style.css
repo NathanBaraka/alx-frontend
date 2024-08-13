@@ -1,0 +1,28 @@
+/* Create custom properties */
+:root {
+  --header-padding: 4rem 0 0;
+  --header-logo-position: relative;
+  --header-logo-link-display: inline-block;
+  --header-logo-link-position: absolute;
+  --header-logo-link-top: -1rem;
+  --header-logo-link-left: 0;
+}
+
+/* Create a header class selector */
+.header {
+  padding: var(--header-padding); /* Pad the header */
+}
+
+/* Create a header-logo class selector */
+.header-logo {
+  position: var(--header-logo-position); /* Position the header-logo */
+}
+
+/* Target the link inside the header-logo class */
+.header-logo a {
+  display: var(--header-logo-link-display); /* Render the display of the link */
+  position: var(--header-logo-link-position); /* Position the link */
+  top: var(--header-logo-link-top); /* Set vertical position */
+  left: var(--header-logo-link-left); /* Set horizontal position */
+}
+

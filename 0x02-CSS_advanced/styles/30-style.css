@@ -1,0 +1,59 @@
+/* Target card-outer within the card-work */
+.card-work .card-outer {
+  position: relative; /* Relatively position the element */
+  overflow: hidden; /* Hide any overflow */
+}
+
+/* Target the image inside card-image within card-work */
+.card-work .card-image img {
+  height: 30rem; /* Set the height */
+  width: 100%; /* Set the width */
+  object-fit: cover; /* Ensure the image covers the area */
+  vertical-align: bottom; /* Align vertically to the bottom */
+}
+
+/* Target card-inner inside card-work */
+.card-work .card-inner {
+  position: absolute; /* Absolutely position the element */
+  top: -0.1rem; /* Set vertical position */
+  left: -0.1rem; /* Set horizontal position */
+  right: -0.1rem; /* Set horizontal position */
+  z-index: 1; /* Set z-order */
+}
+
+/* Target card-inner when card-work is hovered */
+.card-work:hover .card-inner {
+  background-color: rgba(0, 0, 0, 0.7); /* Set background color on hover */
+}
+
+/* Target card-title inside card-work */
+.card-work .card-title {
+  text-align: center; /* Center align the text */
+  margin: 0; /* Set margins all around to 0 */
+  opacity: 0; /* Set opacity to its lowest value */
+  height: 100%; /* Set height to 100% */
+  position: relative; /* Set position to relative */
+}
+
+/* Target the link inside card-title and card-work */
+.card-work .card-title a {
+  display: block; /* Make sure elements display as blocks */
+  text-decoration: none; /* Ensure text is not decorated */
+  padding-top: 45%; /* Set padding on the top */
+}
+
+/* Create the after pseudo-elements of the link inside card-title and card-work */
+.card-work .card-title a::after {
+  content: ''; /* Set content to empty */
+  position: absolute; /* Absolutely position the pseudo-element */
+  top: 0; /* Set top position */
+  right: 0; /* Set right position */
+  bottom: 0; /* Set bottom position */
+  left: 0; /* Set left position */
+}
+
+/* Target card-title when card-work is hovered */
+.card-work:hover .card-title {
+  opacity: 1; /* Set opacity to 1 on hover */
+}
+
