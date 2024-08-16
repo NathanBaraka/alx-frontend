@@ -1,0 +1,10 @@
+.hero-homepage {
+    background-position: 65% 8rem;
+    background-size: 90rem auto;
+    /* Other existing properties */
+}
+.section-hero .section-inner {
+    min-height: 35vh;
+    /* Other existing properties */
+}
+

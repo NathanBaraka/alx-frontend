@@ -1,0 +1,10 @@
+/* Section HERO */
+
+/* Adjustments for article-page */
+.article-page .section-hero {
+  margin-top: -8.5rem; /* Adjust the top margin */
+  padding-top: 5rem; /* Adjust the top padding */
+}
+
+/* Existing media queries and styles here */
+
